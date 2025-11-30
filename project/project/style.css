@@ -1,0 +1,129 @@
+root {
+  
+  --bg: #f6f2ee;
+
+  --surface: #ffffff;
+
+  --text: #1d1b16;
+
+  --muted: #7a736b;
+
+  --accent: #ffbb00;
+
+  --accent-600: #9f7c41;
+
+  --line: #e9e2db;
+
+  --badge: #efe7de;
+
+  --radius: 14px;
+
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
+
+  --maxw: 100%;
+
+  --font-family-one: "Oswald", sans-serif;
+
+  --font-family-two: "Roboto", sans-serif;
+}
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif; 
+}
+
+/* Body */
+body {
+  background: white;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  gap: 2rem;
+  background: white;
+}
+
+/* Page Title Section */
+.page-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.page-title h1 {
+  font-size: 1.5rem;
+}
+
+.agent-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: wheat;
+}
+
+/* Agent Info Section */
+.agent-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+/* Photo Styling */
+.agent-photo {
+    min-width: 120px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 3px solid #fff;
+}
+
+/* iPhone SE & small screens */
+/* @media (max-width: 375px) {
+    .agent-photo {
+        min-width: 80px;
+        height: 80px;
+        border-radius: 10px;
+    }
+} */
+
+
+/* Agent Name & Description */
+.agent-name {
+    max-width: 500px;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.about-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1.5rem;
+}
+
+.more-btn {
+    padding: 0.5rem 1rem;
+    background: #ffbb00;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
